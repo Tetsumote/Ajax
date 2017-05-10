@@ -6,5 +6,5 @@ xhr.onload = function(){
 		document.getElementById('content').innerHTML = xhr.responseText;
 	}
 };
-xhr.open('GET','content.html',true);
+xhr.open('GET','data/content.html',true);
 xhr.send(null);

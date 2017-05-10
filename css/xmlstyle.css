@@ -1,0 +1,8 @@
+.event img{
+	width:200px;
+	float: left;
+}
+.event img:nth-of-type(3){
+	clear: both;
+}
+
