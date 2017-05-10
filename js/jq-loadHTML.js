@@ -5,6 +5,6 @@ $('.nav a').on('click',function(e){
 	$('.nav li.active').removeClass('active');
 	$(this).addClass('active');
 	
-	$('#container').remove();
-	$('#content').load(url + ' #content').hide().fadeIn('slow');
+	$('#content').remove(); 
+	$('#container').load(url + ' #contentLoad').hide().fadeIn('slow');
 });
