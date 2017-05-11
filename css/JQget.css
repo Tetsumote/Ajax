@@ -1,0 +1,8 @@
+#vote img{
+	width:300px;
+	float: left;
+}
+#vote img:nth-of-type(3){
+	clear: both;
+}
+
