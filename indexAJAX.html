@@ -2,9 +2,121 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ajax jquery summary</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<style>
+	*{
+		border-radius:0 !important;
+	}	
+</style>
 </head>
 
-<body>
+<body style="padding-top: 70px">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container-fluid" >
+		<div class="navbar-header">
+			<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</button><!-- hover -->
+			<a href="indexAJAX.html" class="navbar-brand">Brand</a>
+		</div><!-- header -->
+		<div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="about.html">About</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul><!-- list -->
+		</div><!-- menu -->
+	</div><!-- container-fluid -->
+</nav><!-- nav -->
+
+
+ <section id="content">
+      <div id="container">
+<div class="container">
+	<div class="row">
+		<div class="col-sm-10 col-sm-offset-1">
+		<div class="page-header">
+  <h1>Example page header <small>Subtext for header</small></h1>
+</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="thumbnail">
+				<p class="text-center"><span class="glyphicon glyphicon-hourglass" style="font-size: 180px;margin-top: 20px;margin-bottom: 20px"></span></p>
+					<div class="clearfix"></div>
+					<div class="caption">
+						<h3 class="text-center"><span class="visible-md-inline">&nbsp;&nbsp;</span>Time is<span class="visible-md-inline">&nbsp;&nbsp;&nbsp;</span> important</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, eum?</p>
+						<div class="progress">
+  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">25%</div>
+						</div>
+						<p><a href="#" class="btn btn-primary btn-block" role="button">Button</a></p>
+					</div><!-- caption -->
+				</div><!-- thumbnail -->
+			</div><!-- thumbnail col -->
+			<div class="col-sm-6 col-md-4">
+				<div class="thumbnail">
+				
+					<p class="text-center"><span class="glyphicon glyphicon-piggy-bank" style="font-size: 180px;margin-top: 20px;margin-bottom: 20px"></span></p>
+				
+					<div class="clearfix"></div>
+					<div class="caption">
+						<h3 class="text-center">Money are important</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, eum?</p>
+						<div class="progress">
+  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">40%</div>
+						</div>
+						<p><a href="#" class="btn btn-primary btn-block" role="button">Button</a></p>
+					</div><!-- caption -->
+				</div><!-- thumbnail -->
+			</div><!-- thumbnail col -->
+			<div class="col-sm-6 col-md-4">
+				<div class="thumbnail">
+				<p class="text-center"><span class="glyphicon glyphicon-blackboard" style="font-size: 180px;margin-top: 20px;margin-bottom: 20px"></span></p>
+					<div class="clearfix"></div>
+					<div class="caption">
+						<h3 class="text-center">Knolage is important</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, eum?</p>
+						<div class="progress">
+  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width: 35%;">35%</div>
+						</div>
+						<p><a href="#" class="btn btn-primary btn-block" role="button">Button</a></p>
+					</div><!-- caption -->
+				</div><!-- thumbnail -->
+			</div><!-- thumbnail col -->
+			<div class="col-sm-12" style="margin-bottom: 100px;">
+			<div class="row">
+			<div class="page-header">
+  				<h1>Example page header <small>Subtext for header</small></h1>
+			</div><!-- page header -->
+				<div class="col-sm-6 ">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus magni aspernatur libero a debitis. Aliquid eligendi dolorum at nulla perferendis ducimus corporis non quidem doloremque neque beatae officia quos reiciendis repellat, laborum unde perspiciatis libero amet iste a minima esse veritatis. Voluptate ad nostrum officiis sapiente ut veniam, modi, delectus dolorem laborum, et suscipit deleniti incidunt? Illum quia commodi praesentium vero illo dolore nisi ex! Quod, harum libero sit. Doloribus, blanditiis. Voluptatibus suscipit tenetur molestias corporis maxime ducimus perferendis ipsum porro rem, culpa quibusdam magnam, consequatur accusantium. Dicta, iure, debitis. Molestiae eligendi, placeat nostrum aliquid ab totam illo provident exercitationem.</p>
+				</div>
+				<div class="col-sm-6">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus magni aspernatur libero a debitis. Aliquid eligendi dolorum at nulla perferendis ducimus corporis non quidem doloremque neque beatae officia quos reiciendis repellat, laborum unde perspiciatis libero amet iste a minima esse veritatis. Voluptate ad nostrum officiis sapiente ut veniam, modi, delectus dolorem laborum, et suscipit deleniti incidunt? Illum quia commodi praesentium vero illo dolore nisi ex! Quod, harum libero sit. Doloribus, blanditiis. Voluptatibus suscipit tenetur molestias corporis maxime ducimus perferendis ipsum porro rem, culpa quibusdam magnam, consequatur accusantium. Dicta, iure, debitis. Molestiae eligendi, placeat nostrum aliquid ab totam illo provident exercitationem.</p>
+				</div>
+			</div>
+			</div>
+			
+		</div><!-- col -->
+	</div><!-- row -->
+</div><!-- container -->
+</div>
+</section><!-- loading container -->
+<nav class="navbar navbar-inverse navbar-static-bottom" style="margin-bottom: -30px;">
+  <div class="container-fluid">
+  	<div class="navbar-header">
+  	<a href="#" class="navbar-brand">
+  		<span class="glyphicon glyphicon-copyright-mark"></span>&nbsp;&nbsp;All right reserved by Paul Grajewski
+  	</a></div>
+  </div><!-- container -->
+</nav><!-- footer nav -->
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/AJAX.js"></script>
 </body>
 </html>
