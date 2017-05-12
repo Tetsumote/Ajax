@@ -12,7 +12,7 @@ $('nav a').on('click', function(e) {
     url: url,                                               
     timeout: 2000,                                          
     beforeSend: function() {                                
-      $content.append('<div id="load">Wczytywanie</div>');  
+      $content.append('<div id="load">Wczytywanie...</div>'); 
     },
     complete: function() {                                  
       $('#loading').remove();                               

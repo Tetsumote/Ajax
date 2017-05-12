@@ -1,0 +1,95 @@
+{
+	"CA":[
+		{
+			"time": "10:00",
+			"title": "Circuit Hacking"
+		},
+		{
+			"time": "12:00",
+			"title": "Intro to 3D Modeling"
+		},
+		{
+			"time": "13:00",
+			"title": "Zabawy z Arduino"
+		},
+		{
+			"time": "14:00",
+			"title": "The Printed Lunch"
+		},
+		{
+			"time": "15:00",
+			"title": "Droning On"
+		},
+		{
+			"time": "18:00",
+			"title": "Brain Hacking"
+		},
+		{
+			"time": "20:00",
+			"title": "Make The Future"
+		}
+		
+	],
+	"TX":[
+		{
+			"time": "6:00",
+			"title": "Make The Future"
+		},
+		{
+			"time": "9:00",
+			"title": "Brain Hacking"
+		},
+		{
+			"time": "10:00",
+			"title": "Droning On"
+		},
+		{
+			"time": "11:00",
+			"title": "The Printed Lunch"
+		},
+		{
+			"time": "14:00",
+			"title": "Zabawy z Arduino"
+		},
+		{
+			"time": "16:00",
+			"title": "Intro to 3D Modeling"
+		},
+		{
+			"time": "19:00",
+			"title": "Circuit Hacking"
+		}
+		
+	],
+	"NY":[
+		{
+			"time": "10:00",
+			"title": "Intro to 3D Modeling"
+		},
+		{
+			"time": "14:00",
+			"title": "Droning On"
+		},
+		{
+			"time": "15:00",
+			"title": "Circuit Hacking"
+		},
+		{
+			"time": "19:00",
+			"title": "Zabawy z Arduino"
+		},
+		{
+			"time": "21:00",
+			"title": "Brain Hacking"
+		},
+		{
+			"time": "22:00",
+			"title": "The Printed Lunch"
+		},
+		{
+			"time": "23:00",
+			"title": "The Printed Lunch"
+		}
+		
+	]
+}
